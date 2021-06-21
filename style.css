@@ -46,7 +46,7 @@ section {
 .scrollToTop-btn {
   z-index: 999;
   position: fixed;
-  background: #9bf00b;
+  background: #0f7a10;
   color: #fff;
   width: 45px;
   height: 45px;
@@ -66,6 +66,9 @@ section {
   right: 20px;
   opacity: 1;
   pointer-events: auto;
+}
+.scrollToTop-btn:hover {
+  background: #9bf00b;
 }
 .btn {
   padding: 0.6rem 3rem;

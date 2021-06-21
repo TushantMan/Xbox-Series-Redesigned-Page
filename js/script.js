@@ -1,3 +1,13 @@
+const sr = ScrollReveal({
+  origin: "top",
+  distance: "30px",
+  duration: 2000,
+});
+
+sr.reveal(`.image, .box, .table, .heading, .game`, {
+  interval: 100,
+});
+
 window.addEventListener("scroll", function () {
   var header = document.querySelector("nav");
   header.classList.toggle("sticky", window.scrollY > 0);
