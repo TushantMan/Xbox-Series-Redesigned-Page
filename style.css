@@ -141,7 +141,7 @@ nav .menu-btn,
   position: absolute;
   color: #ffffff;
   right: 30px;
-  top: 20px;
+  top: 35px;
   font-size: 20px;
   cursor: pointer;
   transition: all 0.3s ease;
@@ -152,6 +152,7 @@ nav .menu-btn {
 }
 nav.sticky .menu-btn {
   color: #ffffff;
+  top: 25px;
 }
 .navbar .menu .menu-btn {
   color: #ffffff;
@@ -568,13 +569,15 @@ footer img {
 
   .home .image img {
     height: auto;
-    width: 90%;
+    width: 80%;
   }
 
   .heading {
     width: auto;
   }
-
+  .specs .image img {
+    padding: 0;
+  }
   .product .box-container .box {
     flex-flow: column;
   }
