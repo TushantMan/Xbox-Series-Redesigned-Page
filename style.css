@@ -78,6 +78,13 @@ section {
   background: none;
   color: #9bf00b;
   border: 1px solid #9bf00b;
+  transition: all 0.5s ease;
+}
+.btn:hover {
+  background: #9bf00b;
+  border: 1px solid #9bf00b;
+  color: #fff;
+  transition: all 0.5s ease;
 }
 
 .heading {
